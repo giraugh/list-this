@@ -1,5 +1,3 @@
-import './style.css'
-
 const AUTO_THISSER_COST = 10
 const INVEST_COST = 50
 const HISTORY_PHASE_DURATION = 2000
@@ -135,3 +133,5 @@ investButton.addEventListener('click', () => {
 
   updateDisplays()
 })
+
+export {}
