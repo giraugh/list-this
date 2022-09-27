@@ -15,7 +15,7 @@ jobs:
         cache: 'yarn'
         cache-dependency-path: '**/yarn.lock'
     - run: yarn install --immutable
-    - run: yarn build
+    - run: yarn build --base /list-this
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
